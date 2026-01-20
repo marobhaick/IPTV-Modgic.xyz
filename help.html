@@ -12,23 +12,19 @@
         background: linear-gradient(180deg, #fff6f8, #fff);
         color: #333;
     }
-
     .wrapper {
         max-width: 420px;
         margin: auto;
         padding: 18px;
     }
-
     .header {
         text-align: center;
         margin-bottom: 18px;
     }
-
     .header h2 {
         margin: 0;
         color: #ff4f7b;
     }
-
     .note {
         background: #ffe9ef;
         border-radius: 10px;
@@ -37,7 +33,6 @@
         margin-bottom: 18px;
         border: 1px dashed #ff9aaf;
     }
-
     .step-card {
         background: #ffffff;
         border-radius: 14px;
@@ -45,13 +40,11 @@
         box-shadow: 0 6px 16px rgba(255,120,140,0.15);
         margin-bottom: 16px;
     }
-
     .step-title {
         font-weight: 600;
         margin-bottom: 8px;
         color: #ff6a00;
     }
-
     .playlist-row {
         display: flex;
         align-items: center;
@@ -62,13 +55,11 @@
         margin-bottom: 8px;
         font-size: 13px;
     }
-
     .playlist-row span {
         flex: 1;
         overflow-x: auto;
         white-space: nowrap;
     }
-
     .copy-btn {
         border: none;
         background: linear-gradient(90deg, #ff7a00, #ff3f7f);
@@ -78,11 +69,9 @@
         font-size: 12px;
         cursor: pointer;
     }
-
     .input-box {
         margin-top: 10px;
     }
-
     .input-box input {
         width: 100%;
         padding: 12px;
@@ -91,7 +80,6 @@
         font-size: 14px;
         margin-bottom: 10px;
     }
-
     .paste-btn {
         width: 100%;
         border: none;
@@ -102,7 +90,6 @@
         color: #fff;
         cursor: pointer;
     }
-
     .bottom-btn {
         margin-top: 20px;
         width: 100%;
@@ -163,7 +150,8 @@
         </div>
     </div>
 
-    <button class="bottom-btn">
+    <!-- ✅ WORKING BUTTON -->
+    <button class="bottom-btn" onclick="window.open('https://www.google.com/search?q=Free+Popular+IPTV+Playlist','_blank')">
         Find Public IPTV Playlists
     </button>
 
@@ -176,7 +164,6 @@
             alert("Link copied successfully");
         });
     }
-
     function pasteLink() {
         navigator.clipboard.readText().then(text => {
             document.getElementById("playlistInput").value = text;

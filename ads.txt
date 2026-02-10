@@ -1,5 +1,6 @@
 google.com, pub-6510507965040251, DIRECT, f08c47fec0942fa0
 google.com, pub-8198504151104264, DIRECT, f08c47fec0942fa0
+facebook.com, 584807023639556, DIRECT, c3e20eee3f780d68
 stroeer.com, 17580, DIRECT
 adform.com, 2148, RESELLER, 9f5210a2f0999e32
 rubiconproject.com, 22884, DIRECT, 0bfd66d529a55807
